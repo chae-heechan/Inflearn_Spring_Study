@@ -24,6 +24,7 @@ public class OrderApp {
         MemberService memberService = applicationContext.getBean("memberService", MemberService.class);
         OrderService orderService = applicationContext.getBean("orderService", OrderService.class);
 
+
         Long memberId = 1L;
         Member member = new Member(memberId, "memberA", Grade.VIP);
 
